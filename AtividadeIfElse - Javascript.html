@@ -28,7 +28,7 @@
                 situacao = "Reprovado";
             }
 
-            // Mostra na página
+       
             document.write("<h2>Resultado - Status do Aluno </h2>");
             document.write("<p>Nota 1: " + nota1 + "</p>");
             document.write("<p>Nota 2: " + nota2 + "</p>");
@@ -36,11 +36,10 @@
             document.write("<p>Média: " + media.toFixed(2) + "</p>");
             document.write("<p>Situação: " + situacao + "</p>");
 
-            // Mostra no console
+ 
             console.log("Média:", media.toFixed(2));
             console.log("Situação:", situacao);
 
-            // Alerta com o resultado final
             alert("Situação do aluno: " + situacao);
         }
 
